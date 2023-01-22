@@ -483,7 +483,8 @@ header {
 }
 .footer-box form {
   border-bottom: 1px solid var(--text-color);
-  padding: 10px;
+  padding-top: 10;
+  
   display: flex;
   align-items: center;
   column-gap: 0.5rem;

@@ -23,20 +23,13 @@
 
 /* Form */
 
-form {
+.forma {
   margin: 0 auto;
   padding: 30px;
   border: 1px solid #ccc;
   border-radius: 10px;
 }
 
-.footer-box form {
-  border-bottom: 1px solid var(--text-color);
-  padding: 10px;
-  display: flex;
-  align-items: center;
-  column-gap: 0.5rem;
-}
 .footer-box form input {
   background: transparent;
   border: none;
