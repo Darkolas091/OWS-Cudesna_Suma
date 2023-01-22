@@ -107,7 +107,7 @@ header {
 .container {
   position: relative;
   width: 100%;
-  min-height: 525px;
+  min-height: 500px;
   display: flex;
   align-items: center;
   background: url(img/background.png);
@@ -125,6 +125,8 @@ header {
   position: absolute;
   bottom: 25%;
   right: 200px;
+  z-index: -1;
+  opacity: 85%;
 }
 .home-text {
   padding: 0 150px;
@@ -316,6 +318,31 @@ header {
   background: var(--orange-color);
   transition: 0.2s all linear;
 }
+.products-conatiner .box .bxs-right-arrow:hover {
+  background: var(--orange-color);
+  transition: 0.2s all linear;
+}
+
+
+.customers-container .box .bxs-right-arrow {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 4px;
+  background: var(--green-color);
+  color: var(--bg-color);
+  font-size: 16px;
+  border-radius: 0.5rem 0 0rem 0;
+}
+.customers-container .box .bx-right-arrow:hover {
+  background: var(--orange-color);
+  transition: 0.2s all linear;
+}
+.bxs-right-arrow:before {
+  transition: 0.2s all linear;
+  color: rgb(0, 0, 0);
+}
+
 .products-conatiner .box .bx-heart {
   position: absolute;
   top: 1rem;
@@ -365,11 +392,13 @@ header {
   gap: 1.5rem;
   margin-top: 2rem;
 }
+
 .customers-container .box {
   padding: 20px;
   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
   border-radius: 0.5rem;
   border-bottom: 7px solid var(--green-color);
+  position: relative;
 }
 .customers-container .box:hover {
   transform: translateY(10px);
@@ -565,7 +594,7 @@ header {
     order: 2;
   }
   .about-text {
-    text-align: center;
+    text-align: left;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -581,7 +610,10 @@ header {
 @media (max-width: 642px) {
   .container img {
     right: 0;
-    width: 370px;
+    width: 270px;
+    z-index: -1;
+    opacity: 75%;
+    
   }
 }
 @media (max-width: 555px) {

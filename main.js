@@ -3,9 +3,10 @@ var swiper = new Swiper(".home", {
   spaceBetween: 30,
   centeredSlides: true,
   
-  //   delay: 2500,
-    //   disableOnInteraction: false,
-    // },
+  autoplay: {
+    delay: 7500,
+    disableOnInteraction: false,
+  },
 
   navigation: {
     nextEl: ".swiper-button-next",
