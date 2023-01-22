@@ -50,7 +50,7 @@ label {
   font-size: 18px;
 }
 
-input[type="text"], input[type="tel"], input[type="email"], textarea {
+.form-styling {
   width: 100%;
   padding: 12px 20px;
   margin-bottom: 20px;
@@ -58,6 +58,7 @@ input[type="text"], input[type="tel"], input[type="email"], textarea {
   border-radius: 5px;
   font-size: 16px;
 }
+
 
 textarea {
   height: 150px;
@@ -751,7 +752,7 @@ header {
 }
 .footer-box form {
   border-bottom: 1px solid var(--text-color);
-  padding: 10px;
+  padding-top: 10;
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
