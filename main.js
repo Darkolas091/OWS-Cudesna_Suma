@@ -27,7 +27,7 @@ window.onscroll = () => {
   navbar.classList.remove('active');
 }
 
-if (loc === '/arhiva.html') {
+
 
 document.querySelector('.box1').addEventListener('click', function() {
   document.querySelectorAll('.box1, .box2, .box3, .box4, .box5').forEach(box => {
@@ -98,4 +98,3 @@ document.querySelector('.box5').addEventListener('click', function() {
   document.querySelector('.or').style.display = 'none';
   document.querySelector('.zac').style.display = 'block';
 });
-}
