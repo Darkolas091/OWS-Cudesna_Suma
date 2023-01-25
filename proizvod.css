@@ -702,16 +702,17 @@ header {
   font-weight: 600;
 }
 .footer {
-  max-width: 968px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  /* gap: 1.5rem; */
   margin-top: 2rem;
   background: #fef4ea;
   border-radius: 0.5rem;
   padding: 20px;
+  padding-left: 3rem;
+  /* padding-right: 3rem; */
 }
 .footer-box {
   display: flex;
@@ -753,9 +754,12 @@ header {
 .footer-box form {
   border-bottom: 1px solid var(--text-color);
   padding-top: 10;
+  
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+  width: 60%;
+  padding-bottom: 0.2rem;
 }
 .footer-box form input {
   background: transparent;

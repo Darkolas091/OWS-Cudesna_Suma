@@ -38,6 +38,14 @@ img {
 body {
   color: var(--text-color);
 }
+a.cate{
+  display: b;
+  position: relative;
+  color:inherit;
+  text-decoration: none;
+  
+}
+
 header {
   position: fixed;
   width: 100%;
@@ -140,8 +148,21 @@ header {
   font-size: 2.4rem;
   font-weight: 700;
   margin-bottom: 1rem;
+  line-height: 2.5rem;
 }
 .btn {
+  padding: 0.6rem 1rem;
+  background: var(--green-color);
+  color: var(--bg-color);
+  font-weight: 400;
+  border-radius: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 00.5rem;
+  max-width: 135px;
+}
+.btn-2 {
   padding: 0.6rem 1rem;
   background: var(--green-color);
   color: var(--bg-color);
@@ -159,9 +180,21 @@ header {
   color: var(--text-color);
   border-radius: 1rem;
   font-size: 20px;
-  margin: auto;
+  /* margin: auto; */
+}
+.btn-2 .bx {
+  padding: 4px;
+  background: var(--bg-color);
+  color: var(--text-color);
+  border-radius: 1rem;
+  font-size: 20px;
+  /* margin: auto; */
 }
 .btn:hover {
+  background: var(--light-orange-color);
+  transition: 0.2s ease;
+}
+.btn-2:hover {
   background: var(--light-orange-color);
   transition: 0.2s ease;
 }
@@ -215,6 +248,7 @@ header {
   align-items: center;
   padding: 20px;
   border-radius: 0.5rem;
+  transition: 0.2s all linear;
 }
 .categories-conatiner .box img {
   width: 100%;
@@ -241,13 +275,18 @@ header {
   bottom: -8%;
   display: none;
 }
+.categories-conatiner .box:hover {
+  /* background: var(--light-orange-color); */
+  transform: translateY(5px);
+
+}
 .categories-conatiner .box .bx:hover {
   background: var(--light-orange-color);
-  transition: 0.2s all linear;
+
 }
 .categories-conatiner .box:hover .bx {
   display: block;
-  transition: 0.2s all linear;
+
 }
 .box1 {
   background: #fef4ea;
@@ -280,6 +319,7 @@ header {
   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
   border-radius: 0.5rem;
   position: relative;
+  display: block;
 }
 .products-conatiner .box img {
   width: 100%;
@@ -399,10 +439,11 @@ header {
   border-radius: 0.5rem;
   border-bottom: 7px solid var(--green-color);
   position: relative;
+  transition: 0.2s all linear;
 }
 .customers-container .box:hover {
   transform: translateY(10px);
-  transition: 0.2s all linear;
+
 }
 .customers-container .box .bx {
   font-size: 24px;
@@ -433,16 +474,17 @@ header {
   font-weight: 600;
 }
 .footer {
-  max-width: 968px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, auto));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, auto));
+  /* gap: 1.5rem; */
   margin-top: 2rem;
   background: #fef4ea;
   border-radius: 0.5rem;
   padding: 20px;
+  padding-left: 3rem;
+  /* padding-right: 3rem; */
 }
 .footer-box {
   display: flex;
@@ -488,6 +530,8 @@ header {
   display: flex;
   align-items: center;
   column-gap: 0.5rem;
+  width: 60%;
+  padding-bottom: 0.2rem;
 }
 .footer-box form input {
   background: transparent;
@@ -570,11 +614,15 @@ header {
   }
   .home-text h1 {
     font-size: 1.7rem;
+    /* line-height: 2.5rem; */
   }
   .container imng {
     width: 390px;
   }
   .btn {
+    padding: 0.6rem 1.2rem;
+  }
+  .btn-2 {
     padding: 0.6rem 1.2rem;
   }
   .products-conatiner {
@@ -602,7 +650,10 @@ header {
     justify-content: center;
   }
   .btn {
-    max-width: 164px;
+    max-width: 135px;
+  }
+  .btn-2{
+    max-width: 170px;
   }
   .customers h2 {
     font-size: 1.2rem;

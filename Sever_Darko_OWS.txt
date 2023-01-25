@@ -1,0 +1,11 @@
+Darko Sever G4
+
+https://jade-mousse-f62586.netlify.app
+
+Stranica vizualno funkcionira, imamo slider koji moze vrtiti hero image i bitan slogan.
+Imamo pregled kategorija.
+Pregled proizvoda, koji ako izaberemo otvori nam novu stranicu za Proziod.
+Sekcija o Nama.
+Sekcija gdje imamo kartice sa radionicma i dogadanjima koje odrzavamo.
+Kontakt forma.
+Footer sa kategorijama, korisnim poveznicama i newsletterom.
