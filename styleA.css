@@ -222,6 +222,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding-top: 2rem;
 }
 .heading h1 {
   font-size: 1.6rem;
@@ -322,12 +323,14 @@ header {
   position: relative;
   display: block;
 }
+
 .products-conatiner .box img {
   width: 100%;
   height: 200px;
   object-fit: contain;
   object-position: center;
 }
+
 .products-conatiner .box span {
   font-weight: 500;
   font-size: 13px;
