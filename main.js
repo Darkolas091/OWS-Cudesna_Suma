@@ -26,3 +26,15 @@ window.onscroll = () => {
   menu.classList.remove('bx-x');
   navbar.classList.remove('active');
 }
+
+document.querySelectorAll('.box').forEach(box => {
+  box.addEventListener('click', function() {
+      document.querySelectorAll('.box').forEach(box => {
+          box.style.borderColor = "transparent";
+          box.style.border = "none";
+      });
+      this.style.borderColor = "black";
+      this.style.border = "2px solid";
+      this.style.transition = "none";
+  });
+});
