@@ -20,7 +20,11 @@
   --bg-color: #fff;
 }
 
-
+@media only screen and (min-width: 768px) {
+  #card{
+      display: flex;
+  }
+}
 /* Form */
 
 .forma {
@@ -548,7 +552,7 @@ header {
   box-shadow: 1px 2px 11px 4px rgb(14 55 54 / 15%);
   border-radius: 0.5rem;
   position: relative;
-  min-height: 525px;
+  min-height: 450px;
 }
 .products-conatiner .box img {
   width: 100%;
