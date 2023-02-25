@@ -19,6 +19,9 @@
   --text-color: #1a2428;
   --bg-color: #fff;
 }
+.swiper-wrapper{
+  display: block;
+}
 /* Custom Scroll Bar */
 ::-webkit-scrollbar {
   width: 0.5rem;
@@ -138,6 +141,7 @@ header {
 }
 .home-text {
   padding: 0 150px;
+  padding-top: 8em;
 }
 .home-text span {
   font-weight: 400;
@@ -558,6 +562,7 @@ header {
   }
   .home-text {
     padding: 0 100px;
+    padding-top: 8em;
   }
   .container img {
     right: 100px;
@@ -575,6 +580,7 @@ header {
   }
   .home-text {
     padding: 0 5%;
+    padding-top: 8em;
   }
   .swiper-button-next,
   .swiper-button-prev {
@@ -691,6 +697,7 @@ header {
   }
   .home-text {
     padding-bottom: 0rem;
+    padding-top: 8em;
   }
   .home-text span {
     font-size: 0.8rem;
